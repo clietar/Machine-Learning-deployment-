@@ -3,7 +3,7 @@ Tools and methods to deploy ML models in production
 
 <b> XGBOOST </b>
 
-- <strong>script "XGB_json_reader.py" <:strong> was realised to deploy a trained Xgboost model in pure python. 
+- <strong>script "XGB_json_reader.py" </strong> was realised to deploy a trained Xgboost model in pure python. 
 
     1. objective : remove the dependencies of xgboost library function when using the xgboost.predict() method over new observations converted into XGBOOST format (using .DMatrix()). 
     
