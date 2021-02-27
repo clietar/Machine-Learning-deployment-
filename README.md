@@ -14,7 +14,7 @@ Tools and methods to deploy ML models in production
       
      3. Utilization : 
         - Store the trained model using the BoosterReader class and specify if its a classification or regression problem : model = BoosterReader(your .json file, "classification" or "regression", your base_score initialization)
-        - Call the .predict() function on new observations. 
+        - Call the .predict() method on new observations. 
        
      4. Requirements :
         - before dumping model for a classification problem, base_score must be the default value (0.5)
